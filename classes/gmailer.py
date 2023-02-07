@@ -44,7 +44,7 @@ class Gmailer:
                               count: int = 1) -> list[Message] | None:
         """
         Returns list of recent messages from gmail.
-        :param search_type: Imap.SEARCH_TYPE - contains search type (see Imap.SEARCH_TYPES)
+        :param search_type: Imap.SEARCH_TYPE (default ALL) - contains search type (see Imap.SEARCH_TYPES)
         :param count: int (default = 1) - contains the number of recent email to be received
         :return: list of recent messages or None on error
         """
